@@ -1,0 +1,103 @@
+﻿
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            Sistema Punto de Venta
+        </a>
+    </div>
+</div>
+
+<input type="checkbox"
+       title="Navigation menu"
+       class="navbar-toggler" />
+
+<div class="nav-scrollable"
+     onclick="document.querySelector('.navbar-toggler').click()">
+
+    <nav class="nav flex-column">
+
+        <!-- INICIO -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link"
+                     href=""
+                     Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill"
+                      aria-hidden="true"></span>
+                Inicio
+            </NavLink>
+        </div>
+
+        <!-- PRODUCTOS -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="productos">
+                <span class="bi bi-box-seam"
+                      aria-hidden="true"></span>
+                Productos
+            </NavLink>
+        </div>
+
+        <!-- MARCAS -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="marcas">
+                <span class="bi bi-tags-fill"
+                      aria-hidden="true"></span>
+                Marcas
+            </NavLink>
+        </div>
+
+        <!-- CLIENTES -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="clientes">
+                <span class="bi bi-people-fill"
+                      aria-hidden="true"></span>
+                Clientes
+            </NavLink>
+        </div>
+
+        <!-- PROVEEDORES -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="proveedores">
+                <span class="bi bi-truck"
+                      aria-hidden="true"></span>
+                Proveedores
+            </NavLink>
+        </div>
+
+        <!-- COMPRAS -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="compras">
+                <span class="bi bi-bag-fill"
+                      aria-hidden="true"></span>
+                Compras
+            </NavLink>
+        </div>
+
+        <!-- VENTAS -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="ventas">
+                <span class="bi bi-cart-fill"
+                      aria-hidden="true"></span>
+                Ventas
+            </NavLink>
+        </div>
+
+        <!-- INVENTARIO -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="inventario">
+                <span class="bi bi-boxes"
+                      aria-hidden="true"></span>
+                Inventario
+            </NavLink>
+        </div>
+
+        <!-- REPORTES -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reportes">
+                <span class="bi bi-bar-chart-fill"
+                      aria-hidden="true"></span>
+                Reportes
+            </NavLink>
+        </div>
+
+    </nav>
+</div>
